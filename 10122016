@@ -1,0 +1,30 @@
+  #include <stdio.h> 
+int main (){
+	double fgrade;
+	
+	printf("Enter a grade that will be converted into the GPA system : ");
+	scanf ("%lf", &fgrade);
+	if (fgrade >= 94)
+		printf ("4.0");
+	else if (fgrade >= 89)
+		printf ("3.5");
+		else if (fgrade >= 83)
+			printf ("3.0");
+			else if (fgrade >= 78)
+				printf ("2.5");
+				else if (fgrade >= 72)
+					printf ("2.0");
+					else if (fgrade >= 66)
+						printf ("1.5");
+						else if (fgrade >= 60)
+							printf ("1.0");
+								else if (fgrade < 60)
+									printf ("0.0");
+	return 0;
+}
+	
+  
+	
+	
+	
+	
